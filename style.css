@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+
+}
+header{
+    position: relative;
+    height: 30vh;
+    overflow: hidden;
+}
+header .bg{
+    width: 100%;
+    position: absolute;
+    top: -50%;
+    filter: brightness(60%);
+    
+}
+
+header .title{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5vh;
+}
+
+
+header h1{
+    font-size: 90%;
+    color: #e8b13b;
+}
+header p{
+    font-size: 25%;
+    color: white;
+    text-transform: uppercase;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: start;
+    min-height: 50vh;
+    gap: 3vh;
+    margin: 5vh;
+}
+.cards .card{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5%;
+    width: 45%;
+    text-align: center;
+    border: 1px solid #e8b13b;
+    border-radius: 2vh;
+    box-shadow: .1vh .1vh 1vh gray;
+    font-size: 5vh
+}
+
+.card i{
+    font-size:100% ;
+}
+.card p{
+    font-size: 40%;
+}
+.card input[type='button']{
+    font-weight: bold;
+    border: none;
+    border-radius: 1vh;
+    background-color: rgb(226, 193, 94);
+    padding: 5%;
+    transition: all .2s;
+}
+.card input[type='button']:hover{
+    background-color: rgb(195, 148, 20);
+    scale: 120%;
+    color: white;
+    
+}
+.cards .card:nth-child(1) i{
+    color: rgb(0, 106, 255);
+}
+.cards .card:nth-child(2) i{
+    color: rgb(0, 218, 131);
+}
+.cards .card:nth-child(3) i{
+    background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+    background-clip: text;
+    color: transparent;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    padding: 5vh;
+    background-color: rgb(48, 44, 41);
+    justify-content: center;
+    min-height: 8vh;
+}
+footer div{
+    display: flex;
+    font-size:50%;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+footer p{
+    color: #e8b13b;
+    padding: 0 1%;
+}
+@media(min-width:900px){
+    header{
+        height: 40vh;
+    }
+    header .bg{
+        top: -290%;
+    }
+
+    header .title{
+        top: 40%;
+        font-size: 10vh;
+    }
+
+    .cards .card{
+        width: 25%;
+        font-size: 10vh
+    }
+    .card input[type='button']{
+        width: 80%;
+    }
+}
