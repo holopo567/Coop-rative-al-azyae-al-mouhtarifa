@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le diagramme de Gantt – Outil de planification de projet</title>
+    <link rel="stylesheet" href="presentation-style.css">
+</head>
+<body>
+    <div class="presentation">
+        <!-- Slide 1: Titre -->
+        <section class="slide active" id="slide1">
+            <div class="slide-content title-slide">
+                <div class="icon">📊</div>
+                <h1>Le diagramme de Gantt</h1>
+                <h2>Outil de planification de projet</h2>
+                <p class="subtitle">Formation Développement Digital – 1ère année</p>
+            </div>
+        </section>
+
+        <!-- Slide 2: Définition -->
+        <section class="slide" id="slide2">
+            <div class="slide-content">
+                <h1>📖 Qu'est-ce qu'un diagramme de Gantt ?</h1>
+                <div class="definition-box">
+                    <p class="definition">Un <strong>diagramme de Gantt</strong> est un outil de gestion de projet qui permet de <strong>visualiser dans le temps</strong> les différentes tâches à accomplir.</p>
+                </div>
+                <div class="objectives">
+                    <h3>🎯 Objectifs principaux :</h3>
+                    <ul>
+                        <li><strong>Planifier</strong> les tâches d'un projet</li>
+                        <li><strong>Suivre</strong> l'avancement en temps réel</li>
+                        <li><strong>Coordonner</strong> les équipes et les ressources</li>
+                        <li><strong>Identifier</strong> les dépendances entre tâches</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 3: Historique -->
+        <section class="slide" id="slide3">
+            <div class="slide-content">
+                <h1>🕰️ Historique</h1>
+                <div class="history-content">
+                    <div class="history-text">
+                        <h3>Henry Gantt (1861-1919)</h3>
+                        <p>Ingénieur américain et consultant en management</p>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <span class="year">1910-1915</span>
+                                <p>Création du diagramme de Gantt pour optimiser la production industrielle</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="year">1917</span>
+                                <p>Utilisé pour la construction de navires pendant la Première Guerre mondiale</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="year">Aujourd'hui</span>
+                                <p>Standard mondial en gestion de projet (IT, construction, événementiel...)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history-icon">👨‍💼</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 4: Utilité -->
+        <section class="slide" id="slide4">
+            <div class="slide-content">
+                <h1>💡 Pourquoi et quand utiliser un diagramme de Gantt ?</h1>
+                <div class="two-columns">
+                    <div class="column">
+                        <h3>✅ Quand l'utiliser ?</h3>
+                        <ul>
+                            <li>Projets avec <strong>plusieurs tâches</strong></li>
+                            <li>Équipes <strong>multiples</strong></li>
+                            <li>Délais <strong>stricts</strong> à respecter</li>
+                            <li>Dépendances <strong>complexes</strong></li>
+                            <li>Besoin de <strong>communication</strong> claire</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3>🎯 Cas d'usage en IT :</h3>
+                        <ul>
+                            <li>Développement d'une <strong>application web</strong></li>
+                            <li>Migration de <strong>base de données</strong></li>
+                            <li>Déploiement d'une <strong>infrastructure</strong></li>
+                            <li>Refonte d'un <strong>site e-commerce</strong></li>
+                            <li>Lancement d'un <strong>produit digital</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 5: Structure -->
+        <section class="slide" id="slide5">
+            <div class="slide-content">
+                <h1>🔧 Structure du diagramme de Gantt</h1>
+                <div class="structure-grid">
+                    <div class="structure-item">
+                        <div class="icon-box">📝</div>
+                        <h3>Tâches</h3>
+                        <p>Liste des activités à réaliser</p>
+                    </div>
+                    <div class="structure-item">
+                        <div class="icon-box">⏱️</div>
+                        <h3>Durée</h3>
+                        <p>Temps estimé pour chaque tâche</p>
+                    </div>
+                    <div class="structure-item">
+                        <div class="icon-box">🔗</div>
+                        <h3>Dépendances</h3>
+                        <p>Liens entre les tâches</p>
+                    </div>
+                    <div class="structure-item">
+                        <div class="icon-box">📊</div>
+                        <h3>Barres horizontales</h3>
+                        <p>Représentation visuelle temporelle</p>
+                    </div>
+                    <div class="structure-item">
+                        <div class="icon-box">📅</div>
+                        <h3>Échelle de temps</h3>
+                        <p>Axe horizontal (jours, semaines...)</p>
+                    </div>
+                    <div class="structure-item">
+                        <div class="icon-box">👥</div>
+                        <h3>Ressources</h3>
+                        <p>Personnes assignées aux tâches</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 6: Exemple concret -->
+        <section class="slide" id="slide6">
+            <div class="slide-content">
+                <h1>💻 Exemple : Création d'un site web</h1>
+                <div class="gantt-example">
+                    <div class="gantt-chart">
+                        <div class="gantt-header">
+                            <div class="gantt-tasks-header">Tâches</div>
+                            <div class="gantt-timeline-header">
+                                <span>Sem 1</span>
+                                <span>Sem 2</span>
+                                <span>Sem 3</span>
+                                <span>Sem 4</span>
+                                <span>Sem 5</span>
+                                <span>Sem 6</span>
+                            </div>
+                        </div>
+                        <div class="gantt-row">
+                            <div class="gantt-task-name">1. Analyse des besoins</div>
+                            <div class="gantt-timeline">
+                                <div class="gantt-bar phase1" style="left: 0%; width: 16.66%;">
+                                    <span>1 sem</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gantt-row">
+                            <div class="gantt-task-name">2. Design & Maquettes</div>
+                            <div class="gantt-timeline">
+                                <div class="gantt-bar phase2" style="left: 16.66%; width: 33.33%;">
+                                    <span>2 sem</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gantt-row">
+                            <div class="gantt-task-name">3. Développement Front-end</div>
+                            <div class="gantt-timeline">
+                                <div class="gantt-bar phase3" style="left: 33.33%; width: 33.33%;">
+                                    <span>2 sem</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gantt-row">
+                            <div class="gantt-task-name">4. Développement Back-end</div>
+                            <div class="gantt-timeline">
+                                <div class="gantt-bar phase4" style="left: 50%; width: 33.33%;">
+                                    <span>2 sem</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gantt-row">
+                            <div class="gantt-task-name">5. Tests & Déploiement</div>
+                            <div class="gantt-timeline">
+                                <div class="gantt-bar phase5" style="left: 83.33%; width: 16.66%;">
+                                    <span>1 sem</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="gantt-note">📌 <strong>Durée totale :</strong> 6 semaines | <strong>Dépendances :</strong> Chaque phase dépend de la précédente</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 7: Avantages et limites -->
+        <section class="slide" id="slide7">
+            <div class="slide-content">
+                <h1>⚖️ Avantages et limites</h1>
+                <div class="pros-cons">
+                    <div class="pros">
+                        <h3>✅ Avantages</h3>
+                        <ul>
+                            <li><strong>Visualisation claire</strong> de l'ensemble du projet</li>
+                            <li><strong>Suivi en temps réel</strong> de l'avancement</li>
+                            <li>Identification rapide des <strong>retards</strong></li>
+                            <li><strong>Communication facilitée</strong> avec les parties prenantes</li>
+                            <li>Gestion optimale des <strong>ressources</strong></li>
+                            <li>Anticipation des <strong>conflits</strong> de planning</li>
+                        </ul>
+                    </div>
+                    <div class="cons">
+                        <h3>⚠️ Limites</h3>
+                        <ul>
+                            <li><strong>Complexité</strong> pour les très grands projets</li>
+                            <li>Nécessite une <strong>mise à jour régulière</strong></li>
+                            <li>Peut devenir <strong>illisible</strong> avec trop de tâches</li>
+                            <li><strong>Rigidité</strong> face aux changements fréquents</li>
+                            <li>Ne remplace pas la <strong>communication humaine</strong></li>
+                            <li>Temps de <strong>création initial</strong> important</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 8: Conclusion -->
+        <section class="slide" id="slide8">
+            <div class="slide-content conclusion-slide">
+                <h1>🎓 Conclusion</h1>
+                <div class="summary-box">
+                    <h3>📌 Points clés à retenir :</h3>
+                    <ul>
+                        <li>Le diagramme de Gantt est un <strong>outil visuel</strong> de planification</li>
+                        <li>Il permet de <strong>structurer</strong> et <strong>suivre</strong> un projet dans le temps</li>
+                        <li>Particulièrement utile en <strong>développement digital</strong></li>
+                        <li>Efficace pour les projets avec <strong>dépendances multiples</strong></li>
+                    </ul>
+                </div>
+                <div class="methodology-box">
+                    <h3>🔄 Place dans les méthodologies :</h3>
+                    <div class="methodology-grid">
+                        <div class="method-item">
+                            <strong>Gestion classique (Waterfall)</strong>
+                            <p>✅ Très adapté – planification linéaire</p>
+                        </div>
+                        <div class="method-item">
+                            <strong>Gestion agile (Scrum, Kanban)</strong>
+                            <p>⚡ Adapté pour vue macro des sprints</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-box">
+                    <h3>🛠️ Outils populaires :</h3>
+                    <p>Microsoft Project • Trello • Asana • Monday.com • GanttProject • TeamGantt</p>
+                </div>
+                <p class="final-message">💡 <strong>Un bon chef de projet maîtrise le Gantt !</strong></p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Navigation -->
+    <div class="navigation">
+        <button id="prevBtn" class="nav-btn">← Précédent</button>
+        <span id="slideCounter" class="slide-counter">1 / 8</span>
+        <button id="nextBtn" class="nav-btn">Suivant →</button>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <script src="presentation-script.js"></script>
+</body>
+</html>
