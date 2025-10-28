@@ -1,43 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/850c335b68.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Coopérative al azyae al mouhtarifa</title>
+    <title>تعاونية الأزياء المحترفة | Coopérative al azyae al mouhtarifa</title>
 </head>
 <body>
     <header>
-        <img src="Images/bg.HEIC" class="bg" alt="">
+        <div class="header-overlay"></div>
+        <img src="Images/bg.HEIC" class="bg" alt="Background">
         <div class="title">
-            <h1>Contact Us</h1>
-            <p>Coopérative al azyae al mouhtarifa</p>
+            <h1>تواصل معنا</h1>
+            <p>تعاونية الأزياء المحترفة</p>
+            <p class="subtitle">Coopérative al azyae al mouhtarifa</p>
         </div>
     </header>
 
     <div class="container">
+        <div class="section-header">
+            <h2>طرق التواصل</h2>
+            <div class="divider"></div>
+        </div>
+        
         <div class="cards">
-            <div class="card">
-                <i class="fa-brands fa-facebook"></i>
-                <p>page facebook</p>
-                <a target="_blank" rel="noopener noreferrer" href="https://web.facebook.com/profile.php?id=61553031102975&mibextid=ZbWKwL&_rdc=1&_rdr#"><input type="button" value="Click Here" ></a>
+            <div class="card facebook-card">
+                <div class="icon-wrapper">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <h3>صفحة فيسبوك</h3>
+                <p class="card-description">تابعنا على فيسبوك لآخر الأخبار والعروض</p>
+                <a target="_blank" rel="noopener noreferrer" href="https://web.facebook.com/profile.php?id=61553031102975&mibextid=ZbWKwL&_rdc=1&_rdr#">
+                    <button class="btn">زيارة الصفحة</button>
+                </a>
             </div>
-            <div class="card">
-                <i class="fa-brands fa-whatsapp"></i>
-                <p>contact us</p>
-                <a target="_blank" rel="noopener noreferrer" href="https://wa.me/+212621562474"><input type="button" value="Click Here"></a>
+            
+            <div class="card whatsapp-card">
+                <div class="icon-wrapper">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <h3>واتساب</h3>
+                <p class="card-description">تواصل معنا مباشرة عبر الواتساب</p>
+                <a target="_blank" rel="noopener noreferrer" href="https://wa.me/+212621562474">
+                    <button class="btn">إرسال رسالة</button>
+                </a>
             </div>
-            <div class="card">
-                <i class="fa-brands fa-instagram"></i>
-                <p>page instagram</p>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/radwan1546/"><input type="button" value="Click Here"></a>
+            
+            <div class="card instagram-card">
+                <div class="icon-wrapper">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <h3>إنستغرام</h3>
+                <p class="card-description">شاهد أعمالنا وإبداعاتنا على إنستغرام</p>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/radwan1546/">
+                    <button class="btn">متابعة الحساب</button>
+                </a>
             </div>
         </div>
     </div>
+    
     <footer>
-        <div>
-            Copyright © -All Rights Reserved By <p>  AL AZYAE AL MOUHTARIFA</p>
+        <div class="footer-content">
+            <p class="copyright">جميع الحقوق محفوظة © 2025</p>
+            <p class="company-name">تعاونية الأزياء المحترفة</p>
+            <p class="company-name-en">AL AZYAE AL MOUHTARIFA</p>
         </div>
     </footer>
 </body>
